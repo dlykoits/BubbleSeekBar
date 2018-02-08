@@ -855,7 +855,7 @@ public class BubbleSeekBar extends View {
         float x = isRtl ? mRight - distance : mLeft + distance;
         float y = getMeasuredHeight() / 2f;
         return (event.getX() - x) * (event.getX() - x) + (event.getY() - y) * (event.getY() - y)
-                <= (mLeft + dp2px(8)) * (mLeft + dp2px(8));
+                <= (mLeft + dp2px(40)) * (mLeft + dp2px(40));
     }
 
     /**
